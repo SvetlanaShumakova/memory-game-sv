@@ -25,16 +25,16 @@ package com.noveo.memorygame.logic {
 		}
 
 		public function init() : void {
-			createTiles();
-			addEventListener(TileSelect.TILE_SELECT, onSelectTile);
+			createCards();
+			addEventListener(TileSelect.TILE_SELECT, onSelectCard);
 			dispatchEvent(new Event(START));
 		}
 
-		private function createTiles() : void {
+		private function createCards() : void {
 			
 		}
 
-		private function onSelectTile($event : TileSelect) : void {
+		private function onSelectCard($event : TileSelect) : void {
 			
 		}
 		
